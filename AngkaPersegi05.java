@@ -20,11 +20,10 @@ public class AngkaPersegi05 {
         
             }
             System.out.println();
-        }
+            }
         } else{
             System.out.println("Jumlah angka tidak valid");
     
-    
+        }
     }
-}
 }
