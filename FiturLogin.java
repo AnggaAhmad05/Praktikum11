@@ -61,7 +61,7 @@ public class FiturLogin {
             System.out.println("Masukkan Password: ");
             pin = sc.nextLine();
 
-            for (int i = 0; i < username.length; i++) {
+            for (int i = 1; i < username.length; i++) {
                 if (username[i].equals(nama) && pw[i].equals(pin)) {
                     System.out.println("");
                     System.out.println("Login Berhasil");
@@ -87,7 +87,7 @@ public class FiturLogin {
             System.out.println("Masukkan Password: ");
             pin = sc.nextLine();
 
-            for (int i = 0; i < username.length; i++) {
+            for (int i = 2; i < username.length; i++) {
                 if(username[i].equals(nama) && pw[i].equals(pin)) {
                     System.out.println("");
                     System.out.println("Login Berhasil");
@@ -113,6 +113,3 @@ public class FiturLogin {
         }
     }
 }
-
-    
-
